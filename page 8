@@ -1,0 +1,55 @@
+8
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Daily Reminder</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <style>
+    body {
+      margin:0;
+      padding:20px;
+      background:#96b7b2;
+      font-family:sans-serif;
+    }
+    h1 { text-align:center; margin-bottom:10px; }
+    h2 { text-align:center; margin-bottom:30px; }
+    .time-list {
+      display:flex;
+      flex-direction:column;
+      gap:15px;
+    }
+    .time-item {
+      display:flex;
+      align-items:center;
+      background:#ccc;
+      padding:12px;
+      border-radius:10px;
+      font-size:1.2rem;
+      gap:10px;
+    }
+    .time-item img {
+      width:30px;
+      height:30px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Daily Reminder</h1>
+  <h2>Good morning</h2>
+  <div class="time-list">
+    <div class="time-item">
+      <img src="sunrise.png" alt="Morning"/>
+      Good morning
+    </div>
+    <div class="time-item">
+      <img src="afternoon.png" alt="Afternoon"/>
+      Afternoon
+    </div>
+    <div class="time-item">
+      <img src="night.png" alt="Night"/>
+      Night
+    </div>
+  </div>
+</body>
+</html>
