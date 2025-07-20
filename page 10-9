@@ -1,0 +1,40 @@
+9-10
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Missed Dose Alert</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <style>
+    body {
+      margin:0;
+      padding:20px;
+      background:#96b7b2;
+      font-family:sans-serif;
+      text-align:center;
+    }
+    .back { font-size:2rem; cursor:pointer; text-align:left; }
+    h1 { margin:20px 0; }
+    .alert-graphic {
+      width:200px;
+      height:200px;
+      background:#ddd;
+      margin:20px auto;
+      border-radius:10px;
+      font-size:5rem;
+      line-height:200px;
+    }
+    .alert-text {
+      margin-top:20px;
+      font-size:1.2rem;
+      color:#e55343;
+    }
+  </style>
+</head>
+<body>
+  <div class="back">&larr;</div>
+  <h1>Missed Dose Alert</h1>
+  <div class="alert-graphic">🔔</div>
+  <p class="alert-text">A dose was missed<br>will alert caretaker after 10 minutes</p>
+</body>
+</html>
