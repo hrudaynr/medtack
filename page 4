@@ -1,0 +1,45 @@
+4
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Daily Reminder</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <style>
+    body {
+      margin:0;
+      padding:20px;
+      background:#96b7b2;
+      font-family:sans-serif;
+    }
+    h1 { text-align:center; margin-top:0;}
+    .reminder-card,
+    .action-btn {
+      width:90%;
+      margin:20px auto;
+      padding:20px;
+      border-radius:10px;
+      background:green;
+      color:white;
+      font-size:1.2rem;
+      text-align:center;
+    }
+    .action-btn {
+      cursor:pointer;
+    }
+    .reminder-time {
+      display:block;
+      margin-top:10px;
+      font-size:1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Daily Reminder</h1>
+  <div class="reminder-card">
+    Time to take<br><strong>Atorvastatin</strong>
+    <span class="reminder-time">00:00</span>
+  </div>
+  <div class="action-btn">Mark as Taken</div>
+</body>
+</html>
