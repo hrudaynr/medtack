@@ -1,0 +1,58 @@
+7
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Medication Status</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <style>
+    body {
+      margin:0;
+      padding:20px;
+      background:#96b7b2;
+      font-family:sans-serif;
+    }
+    .status-list {
+      display:flex;
+      flex-direction:column;
+      gap:15px;
+    }
+    .status-item {
+      background:#ccc;
+      border-radius:10px;
+      padding:12px;
+      display:flex;
+      align-items:center;
+      gap:15px;
+    }
+    .status-item .icon {
+      width:30px;
+      height:30px;
+      background:gray;
+      border-radius:5px;
+    }
+    .status-item.taken .icon {
+      background:green;
+    }
+    .status-item.upcoming .icon {
+      background:linear-gradient(#e55343, #b01e0e);
+    }
+  </style>
+</head>
+<body>
+  <div class="status-list">
+    <div class="status-item taken">
+      <div class="icon"></div>
+      Taken
+    </div>
+    <div class="status-item">
+      <div class="icon"></div>
+      Umical
+    </div>
+    <div class="status-item upcoming">
+      <div class="icon"></div>
+      Upcoming
+    </div>
+  </div>
+</body>
+</html>
