@@ -1,0 +1,49 @@
+2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Login</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <style>
+    body {
+      margin:0;
+      padding:20px;
+      background:#96b7b2;
+      font-family:sans-serif;
+    }
+    .back { font-size:2rem; cursor:pointer; }
+    .login-form {
+      margin-top:40px;
+      display:flex;
+      flex-direction:column;
+      gap:20px;
+    }
+    .login-form input {
+      width:100%;
+      padding:12px;
+      border:none;
+      border-radius:10px;
+      background:#ccc;
+      font-size:1rem;
+    }
+    .login-form button {
+      padding:15px;
+      background:#1aa5b2;
+      border:none;
+      border-radius:10px;
+      color:white;
+      font-size:1.2rem;
+      cursor:pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="back">&larr;</div>
+  <div class="login-form">
+    <input type="text" placeholder="Name................"/>
+    <input type="tel" placeholder="Mobile number"/>
+    <button>Log in</button>
+  </div>
+</body>
+</html>
